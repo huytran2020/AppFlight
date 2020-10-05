@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:foregroundTint="#070707"
+    android:foregroundTintMode="screen"
+    android:orientation="vertical"
+    android:padding="3dp">
+    <ImageView
+        android:id="@+id/imageChiTietSale"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/nhanmotuudai"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:textColor="#515050"
+            android:text="Nhận 1 ưu đãi, nhân 2 trải nghiệm!"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:textColor="#515050"
+            android:text="Từ 2.386.000VNĐ(chưa bao gồm thuế, phí)"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/textViewNgayKhuyenMai"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:text="Thời gian mua       24/07/2020-30/9/2020"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/textViewThoiGianBayKhuyenMai"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:text="Thời gian bay         14/07/2020-30/9/2020"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/textViewLoaiGiaVeKM"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:text="Loai giá vé                Thương gia tiêu chuẩn"
+            android:textSize="16sp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:text="Giá một chiều từ"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textViewGiaVeSale"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:text="3.095.000VND"
+                    android:textColor="#FFC107"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:text="Đã bao gồm thuế phí"
+                    android:textColor="#65121111"
+                    android:textSize="15sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnDatVeSale"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFC107"
+                    android:text="Đặt ngay"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:id="@+id/textViewGioiThieuSale"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Là dịch vụ cao cấp nhất, hạng thương gia của Vietnam Airline luôn chú trọng từng chi tiết trong dịch vụ của mình nhằm mang đến trải nghiệm tối ưu cho khách hàng. Quý khách sẽ được tận hưởng những đặc quyền ưu tiên trong suốt hành trình bay từ thủ tục trên mặt đất đến khi lên máy bay và rời khỏi sân bay. Để hành khách và bạn đồng hành có cơ hội tận hưởng dịch vụ đẳng cấp nhất, Vietnam Airline ưu đãi giảm 10% giá vé hạng Thương gia cho hành trình nội địa cho nhóm 02 khách trở lên đi cùng nhau."
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

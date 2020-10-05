@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:foregroundTint="#070707"
+    android:foregroundTintMode="screen"
+    android:orientation="vertical"
+    android:padding="3dp">
+    <ImageView
+        android:id="@+id/imageChiTietSale"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="@drawable/sale"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:textColor="#515050"
+                android:text="Làm chủ mọi chuyến đi"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/textViewNgayKhuyenMai"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:text="Thời gian mua       19/06/2020-31/7/2020"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textViewThoiGianBayKhuyenMai"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:text="Thời gian bay        19/06/2020-31/7/2020"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textViewLoaiGiaVeKM"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:text="Loai giá vé                     Phổ thông tiêu chuẩn"
+                android:textSize="15sp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="Giá một chiều"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewGiaVeSale"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="689.000VND"
+            android:textColor="#FFC107"
+            android:textSize="16sp" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="Đã bao gồm thuế phí"
+                android:textColor="#65121111"
+                android:textSize="15sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnDatVeSale"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFC107"
+                    android:text="Đặt ngay"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView
+            android:id="@+id/textViewGioiThieuSale"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:text="Sản Phẩm Ưu Việt, Lợi Ích Khác Biệt. Bay càng nhiều, trả càng ít, giảm tới 50% chi phí. Đặt chỗ sát giờ bay, đặt đến ghế cuối cùng. Sử dụng chung cùng người thân và bạn bè"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

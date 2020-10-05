@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dangki1"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:drawableLeft="@drawable/info"
+            android:drawablePadding="4dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textColorHint="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="4dp"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textColorHint="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="4dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textAllCaps="false"
+            android:textColorHint="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="4dp"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:padding="18dp"
+            android:textColorHint="@android:color/background_dark" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+
+            android:padding="18dp">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/background_dark"
+                android:checked="true"
+                android:text="Male"
+                android:textColorHint="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/background_dark"
+                android:text="Female"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="ACCOUNT INFO"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

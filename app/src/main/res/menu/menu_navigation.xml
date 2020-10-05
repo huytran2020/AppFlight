@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_maybay_24"
+        android:title="Đặt vé" />
+    <item
+        android:id="@+id/navigation_Lotusmile"
+        android:icon="@drawable/ic_hoasen_24"
+        android:title="Lotusmiles" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_giohang_24"
+        android:title="Giỏ hàng" />
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="Tài Khoản" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_view" type="id" />
+    <item name="navigation_dashboard" type="id" />
+    <item name="nav_host_fragment" type="id" />
+    <item name="navigation_home" type="id" />
+    <item name="navigation_notifications" type="id" />
+    <item name="navigation_account" type="id" />
+    <item name="gridView" type="id" />
+    <item name="listView" type="id" />
+    <item name="tag_group" type="id" />
+    <item name="hinhanh" type="id" />
+    <item name="mota" type="id" />
+    <item name="imageViewItemGrid" type="id" />
+    <item name="textViewItemGrid" type="id" />
+</resources>

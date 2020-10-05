@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#070707"
+    android:foregroundTintMode="screen"
+    android:orientation="vertical"
+    android:background="@drawable/bautroi2"
+    android:padding="3dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FBFAFA"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Thông tin giỏ hàng"
+        android:gravity="center"
+        android:textColor="#FFC107"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:text="Ngày khởi hành:"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textViewMoTaNgayDi"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:text="Nơi khởi hành:"
+                android:gravity="left"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textViewMoTaNoiDi"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageViewItemHome"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/maybayngang" />
+
+            <TextView
+                android:id="@+id/textViewMoTaNoiDen"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:text="Thời gian khởi hành:"
+            android:gravity="left"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewMoTaGioDi"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text=" ----"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewMoTaGioDen"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="Mã chuyến bay:"
+            android:gravity="left"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textViewMoTaMaMayBay"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="Họ tên khách hàng:"
+                android:gravity="left"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textViewMoTaHoTen"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:text="Số điện thoại liên hệ:"
+                android:gravity="left"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textViewMoSdt"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/duongvien_goctron_fullvang"
+        android:layout_marginLeft="5dp"
+        android:text="Trang chủ"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

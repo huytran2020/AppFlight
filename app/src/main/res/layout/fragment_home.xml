@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:foregroundTint="#070707"
+        android:foregroundTintMode="screen"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:contentDescription="TODO"
+
+            android:background="@drawable/logovn"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <ImageView
+            android:id="@+id/imageViewItemGridTren"
+            android:layout_width="380dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/sale"
+            android:contentDescription="TODO"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <Button
+            android:id="@+id/btnchiTietKhuyenMai"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/duongvien_goctron_vang"
+            android:text="Chi tiết"
+            android:textColor="#FFC107"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="200dp"
+        android:foregroundTint="#070707"
+        android:foregroundTintMode="screen"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/btnDatChuyenBay"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/duongvien_goctron_vang"
+            android:padding="0dp"
+            android:text="Đặt chuyến bay"
+            android:textColor="#FFC107"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDangKi"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/duongvien_goctron_vang"
+            android:padding="0dp"
+            android:text="Đăng ký/Đăng nhập"
+            android:textColor="#FFC107"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="310dp">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:text="Giá tốt nhất từ Hà Nội"
+            android:textColor="#121111"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="330dp"
+        android:foregroundTint="#070707"
+        android:foregroundTintMode="screen"
+        android:orientation="vertical"
+        android:padding="3dp">
+        <ImageView
+            android:id="@+id/imageViewItemGridDuoi"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:background="@drawable/thu"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="TODO"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <Button
+            android:id="@+id/btnXemChiTiet"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/duongvien_goctron_vang"
+            android:padding="0dp"
+            android:text="Xem Chi tiết"
+            android:textColor="#FFC107"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</RelativeLayout>
